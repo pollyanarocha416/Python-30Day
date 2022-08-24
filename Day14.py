@@ -27,9 +27,9 @@ def higher_order_function(type):  # a higher order function returning a function
 
 
 result = higher_order_function('square')
-print(result(3))       # 9
+print(result(30))       # 9
 result = higher_order_function('cube')
-print(result(3))       # 27
+print(result(2))       # 27
 result = higher_order_function('absolute')
 
 
